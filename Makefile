@@ -1,9 +1,10 @@
 PROJECT_NAME = ASSIGNMENT1
 
 SRC = Src/mystring.c\
-Src/test.c\
+
 Src/bitmask.c\
 Src/myutils.c\
+test.c\
 
 INC = -Iinc
 
