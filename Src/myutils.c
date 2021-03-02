@@ -37,3 +37,20 @@ int Palindrome(int n){
        return 0;
 
 }
+//vsum
+#include <stdarg.h> 
+int vsum(int x, ...)
+{
+
+    va_list valist; 
+  
+    int sum = 0, i; 
+  
+    va_start(valist, x); 
+    for (i = 0; i < x; i++)  
+        sum += va_arg(valist, int); 
+  
+    va_end(valist); 
+  
+    return sum
+}
