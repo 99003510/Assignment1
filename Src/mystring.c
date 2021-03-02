@@ -1,5 +1,5 @@
 #include "mystring.h"
-size_t strlen(const char *s){
+int strlen(const char *s){
     return strlen(s);
 }
 char* strcpy(char* dest, const char* src){
@@ -8,6 +8,6 @@ char* strcpy(char* dest, const char* src){
 char* strcat(char *destination, const char *source){
     return strcat(destination,source);
 }
-int strcmp(const char *Lstr, const char *Rstr ){
-    return strcmp(Lstr,Rstr);
+int strcmp(const char *str1, const char *str2 ){
+    return strcmp(str1,str2);
 }
