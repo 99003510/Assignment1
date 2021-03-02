@@ -8,7 +8,7 @@
 #include <stdarg.h>
 
 
-void main()
+int main()
 {
 char s1[10]="Chithal";
 char s2[10]="Pathal";
