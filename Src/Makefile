@@ -1,5 +1,5 @@
 proj.out: bitmask.c mystring.c myutils.c test.c
-	gcc $^ -0 $@
+	gcc $^ -o $@
 
 run: proj.out
 	./$^
