@@ -1,14 +1,14 @@
 PROJECT_NAME = ASSIGNMENT1
 
-SRC = mystring.c\
-test.c\
-bitmask.c\
-myutils.c\
+SRC = Src/mystring.c\
+Src/test.c\
+Src/bitmask.c\
+Src/myutils.c\
 
-
+INC = -Iinc
 
 $(PROJECT_NAME).out: $(SRC)
-	gcc $^ -o $@
+	gcc $^ -o $@ $(INC)
 
 run: $(PROJECT_NAME).out
 	./$^
