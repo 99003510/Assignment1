@@ -1,4 +1,4 @@
-PROJECT_NAME - ASSIGNMENT1
+PROJECT_NAME = ASSIGNMENT1
 
 SRC = mystring.c\
 test.c\
