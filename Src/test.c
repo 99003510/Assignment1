@@ -6,13 +6,15 @@
 #include "mystring.h"
 
 #include <stdarg.h>
+
+
 void main()
 {
 char s1[10]="Chithal";
 char s2[10]="Pathal";
 int a = 5, r = 1; 
 
-printf("%lu\n",strlen(s1));
+printf("%d\n",strlen(s1));
 printf("%s\n",strcpy(&s1,&s2));
 printf("%s\n",strcat(&s1,&s2));
 printf("%d\n",strcmp(s1,s2));
