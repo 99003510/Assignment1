@@ -1,6 +1,6 @@
-Build: bitmask.c mystring.c myutils.c test.c
-	gcc  bitmask.c mystring.c myutils.c test.c
+proj.out: bitmask.c mystring.c myutils.c test.c
+	gcc $^ -0 $@
 
-run: Build
-	./a.out
+run: proj.out
+	./$^
 		
