@@ -5,7 +5,7 @@ int Factorial(int n)
   if (n == 0)
     return 1;
   else
-    return (n*factorial(n-1));
+    return (n*Factorial(n-1));
 }
 
 //prime number
@@ -52,5 +52,5 @@ int vsum(int x, ...)
   
     va_end(valist); 
   
-    return sum
+    return sum;
 }
