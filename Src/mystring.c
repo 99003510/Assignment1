@@ -1,5 +1,5 @@
 #include "mystring.h"
-int strlen(const char *s){
+size_t strlen(const char *s){
     return strlen(s);
 }
 char* strcpy(char* dest, const char* src){
