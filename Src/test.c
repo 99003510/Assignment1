@@ -14,7 +14,7 @@ char s1[10]="Chithal";
 char s2[10]="Pathal";
 int a = 5, r = 1; 
 
-printf("%d\n",mystrlen(s1));
+printf("%ld\n",mystrlen(s1));
 printf("%s\n",mystrcpy(s1,s2));
 printf("%s\n",mystrcat(s1,s2));
 printf("%d\n",mystrcmp(s1,s2));
